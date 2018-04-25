@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazz and Poetry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <!---MENUUUUU----->
+    <div class="topMenu">
+
+
+
+        <ul class="menu">
+            <img class="logodt" src="img/huset_logo.png">
+
+            <li class="mainmenu"><a href="">HOME</a></li>
+
+
+            <li class="mainmenu"><a class="activePage" href="events.html">EVENTS</a></li>
+
+
+            <li class="mainmenu"><a href="">BASTARD CAFE</a></li>
+
+
+            <li class="mainmenu"><a href="">VOLUNTEERING</a></li>
+
+
+            <li class="mainmenu"><a href="">FAQ</a></li>
+
+
+            <li class="mainmenu"><a href="">CONTACT</a></li>
+
+        </ul>
+    </div>
+
+    <div class="hidden">
+        <img class="logos" src="img/huset_logos.png">
+        <input id="burger" type="checkbox" />
+
+        <label for="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a class="activePage" href="events.html">Events</a></li>
+                <li><a href="#">Bastard Cafe</a></li>
+                <li><a href="#">Volunteering</a></li>
+                <li><a href="#">FAQ &amp; Contacts</a></li>
+            </ul>
+        </nav>
+
+
+    </div>
+
+
+
+    <!----MENU ENDS------->
+    <main>
+        <a href="events.html">
+            <div class="goBackArrow" id="arrowIndex">
+                <p id="goBackTextIndex">GO BACK</p>
+            </div>
+        </a>
+
+        <div class="headerJazz">
+            <h1>Jazz &amp; Poetry</h1>
+        </div>
+
+
+        <nav class="catMenu">
+            <ul>
+            </ul>
+        </nav>
+
+        <section id="eventList">
+        </section>
+
+
+        <template id="eventsTemplate">
+
+          <article class="event">
+             <img src="" alt="">
+              <a class="readMore" href="">
+                 <div id="aboutEventBox">
+                  <h2>TITLE</h2>
+                  <p class="price hide" ><span>PRICE</span> DKK<p>
+                  <p class="date hide">DATE<p>
+              </div>
+            </a>
+          </article>
+
+     </template>
+
+
+    </main>
+
+    <footer class="wraper">
+        <div>
+            <p>HUSET-KBH<br> Rådhusstræde 13<br> 1466 København K<br></p>
+        </div>
+        <div>
+            <img class="float" src="img/icons.png">
+        </div>
+
+
+    </footer>
+
+
+    <script src="menu.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
