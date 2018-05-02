@@ -20,8 +20,13 @@ function buildMenu(data) {
             parentElem.appendChild(li);
 
             if(item.id == catId){
-                li.style.background = "lightgrey";
-                li.style.border = "2px", "lightgrey";
+                li.classList.add('selectedFilter');
+                //li.style.background = "lightgrey";
+                //li.style.border = "2px", "lightgrey";
+                //li.style.color = "white";
+            }
+            else if(!catId && item.name == 'ALL') {
+                li.classList.add('selectedFilter');
             }
         }
 

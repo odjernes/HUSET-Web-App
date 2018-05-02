@@ -18,7 +18,7 @@
 
 
         <ul class="menu">
-            <img class="logodt" src="img/huset_logo.png">
+            <img class="logodt" src="img/white_logo.png">
 
             <li class="mainmenu"><a href="">HOME</a></li>
 
@@ -41,7 +41,7 @@
     </div>
 
     <div class="hidden">
-        <img class="logos" src="img/huset_logos.png">
+        <img class="logos" src="img/white_logo_mobile.png">
         <input id="burger" type="checkbox" />
 
         <label for="burger">
@@ -67,13 +67,14 @@
 
     <!----MENU ENDS------->
     <main>
-        <a href="events.html">
+
+
+        <div class="headerJazz">
+           <a href="events.html">
             <div class="goBackArrow" id="arrowIndex">
                 <p id="goBackTextIndex">GO BACK</p>
             </div>
         </a>
-
-        <div class="headerJazz">
             <h1>Jazz &amp; Poetry</h1>
         </div>
 
@@ -90,12 +91,14 @@
         <template id="eventsTemplate">
 
           <article class="event">
-             <img src="" alt="">
+             <div class="imgBox">
+                 <div class="dateBox"><p class="date">DATE<p>
+                 </div>
+                 <img src="" alt="">
+             </div>
               <a class="readMore" href="">
                  <div id="aboutEventBox">
                   <h2>TITLE</h2>
-                  <p class="price hide" ><span>PRICE</span> DKK<p>
-                  <p class="date hide">DATE<p>
               </div>
             </a>
           </article>
@@ -112,8 +115,6 @@
         <div>
             <img class="float" src="img/icons.png">
         </div>
-
-
     </footer>
 
 
